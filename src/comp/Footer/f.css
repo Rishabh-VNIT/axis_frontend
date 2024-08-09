@@ -1,0 +1,12 @@
+.footer {
+    background: rgba(45, 45, 45, 0.25);
+    -webkit-backdrop-filter: blur(0.8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px; /* Adjust the min-height as per your design requirements */
+    /* Add more styling properties as needed */
+  }
+  

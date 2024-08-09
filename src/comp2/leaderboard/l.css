@@ -1,0 +1,62 @@
+/* l.css */
+
+/* Custom styles for the leaderboard */
+.ld-container {
+  background-color: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.heading-leaderboard {
+  font-size: 2.5rem;
+  color: #fbbf24; /* Gold color */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #374151;
+}
+
+th {
+  background-color: #374151; /* Dark gray */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td {
+  background-color: #2d3748; /* Darker gray */
+  color: #ffffff;
+}
+
+.position {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 50px; /* Fixed width for the position column */
+}
+
+.driver {
+  border-left: 4px solid transparent;
+  padding-left: 10px;
+}
+
+.gap {
+  font-size: 1.2rem;
+  width: 100px; /* Fixed width for the points column */
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
