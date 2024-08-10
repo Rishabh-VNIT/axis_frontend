@@ -18,6 +18,7 @@ const SignIn = () => (
   </div>
 );
 
+
 const SignUp = () => (
   <div>
     <Registration />
