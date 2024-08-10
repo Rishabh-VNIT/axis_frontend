@@ -104,7 +104,7 @@ const Carousel = () => {
             <div class="justify-center items-center">
               <div class="w-96 h-96 overflow-hidden">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-80">
                       <img
                         src={img12}
@@ -113,10 +113,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Dr. APJ Abdul Kalam
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Former President of India
                       </Typography>
                     </CardBody>
@@ -128,7 +128,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img1}
@@ -137,10 +137,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         A K Kiran Kumar
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Former Chairman of ISRO
                       </Typography>
                     </CardBody>
@@ -152,7 +152,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img2}
@@ -161,10 +161,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Abhi & Niyu
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Youtube Content Creator
                       </Typography>
                     </CardBody>
@@ -176,7 +176,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img3}
@@ -185,10 +185,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Abhishek Singh
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         IAS Officer
                       </Typography>
                     </CardBody>
@@ -200,7 +200,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img4}
@@ -209,10 +209,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Anthony Leggett
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Theoretical Physicist
                       </Typography>
                     </CardBody>
@@ -224,7 +224,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img5}
@@ -233,10 +233,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Atul Rane
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         CEO & MD Brahmos Aerospace
                       </Typography>
                     </CardBody>
@@ -248,7 +248,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img6}
@@ -257,10 +257,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Dinesh Keskar
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Senior VP, Boeing
                       </Typography>
                     </CardBody>
@@ -272,7 +272,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img7}
@@ -281,10 +281,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         H.C. Verma
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Indian Physicist
                       </Typography>
                     </CardBody>
@@ -296,7 +296,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img8}
@@ -305,10 +305,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         John Mather
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Astrophysicist and Cosmologist
                       </Typography>
                     </CardBody>
@@ -320,7 +320,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img9}
@@ -329,10 +329,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Nitin Gadkari
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Cabinet Minister
                       </Typography>
                     </CardBody>
@@ -344,7 +344,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img10}
@@ -353,10 +353,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Sandeep Jain
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Founder & CEO, GFG
                       </Typography>
                     </CardBody>
@@ -368,7 +368,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img11}
@@ -377,10 +377,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Sunita Williams
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         American astronaut
                       </Typography>
                     </CardBody>
@@ -392,7 +392,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img13}
@@ -401,10 +401,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Arsh Goyal
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Senior SDE, Samsung
                       </Typography>
                     </CardBody>
@@ -416,7 +416,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img14}
@@ -425,10 +425,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Vijay Bhatkar
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Architect of PARAM Supercomputer
                       </Typography>
                     </CardBody>
@@ -440,7 +440,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img15}
@@ -449,10 +449,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Vijendra Chauhan
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Interview Head, Drishti IAS
                       </Typography>
                     </CardBody>
@@ -464,7 +464,7 @@ const Carousel = () => {
             <div class="swiper-slide">
               <div class="picture">
                 <SwiperSlide>
-                  <Card className="w-80">
+                  <Card className="w-80 bg-transparent">
                     <CardHeader floated={false} className="h-72">
                       <img
                         src={img16}
@@ -473,10 +473,10 @@ const Carousel = () => {
                       />
                     </CardHeader>
                     <CardBody className="text-center">
-                      <Typography variant="h4" color="blue" className="mb-2">
+                      <Typography variant="h4" color="white" className="mb-2">
                         Tanu Jain
                       </Typography>
-                      <Typography color="black" className="font-medium">
+                      <Typography color="white" className="font-medium">
                         Ex-Civil Servant
                       </Typography>
                     </CardBody>
