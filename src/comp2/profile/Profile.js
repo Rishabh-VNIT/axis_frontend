@@ -35,7 +35,7 @@ const Profile = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("auth-token");
-    navigate("/signin");
+    navigate("/");
   };
 
   if (error) {
