@@ -3,11 +3,10 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import "./Nv.css";
-import AxisLogo from "./axis25.png";
+import AxisLogo from "./axis25(bg removed).png";
 import { useNavigate } from "react-router-dom";
 import AuthButtons from "../Login-Logout button/button";
 import { ProfileIcon } from "../Profile Icon/ProfileIcon";
-
 // DefaultNavbar Component
 const DefaultNavbar = () => {
   const navigate = useNavigate();

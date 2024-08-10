@@ -29,11 +29,7 @@ const getMedal = (rank) => {
 };
 
 const getBackgroundColor = (rank) => {
-  if (rank === 1) return 'bg-slate-200'; // Platinum
-  if (rank === 2 || rank === 3) return 'bg-yellow-300'; // Gold
-  if (rank >= 4 && rank <= 6) return 'bg-slate-100'; // Silver
-  if (rank >= 7 && rank <= 10) return 'bg-yellow-600'; // Bronze
-  return 'bg-white';
+  return 'bg-white bg-opacity-20 backdrop-blur-lg backdrop-filter';
 };
 
 const Users = ({ leaderboardData }) => {
@@ -43,7 +39,7 @@ const Users = ({ leaderboardData }) => {
   }
 
   return (
-    <div className="p-8 bg-transparent min-h-screen">
+    <div className="p-8 bg-transparent min-h-screen text-white">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-4 shadow-lg text-white rounded-lg mb-6">
         <div className="hidden lg:grid grid-cols-5 gap-4 text-lg font-bold">
@@ -94,7 +90,7 @@ const Users = ({ leaderboardData }) => {
               key={index}
               className={`bg-white shadow-md rounded-lg p-4 mb-4 hover:shadow-lg transition-shadow duration-300 ${getBackgroundColor(rank)}`}
             >
-              <div className="lg:grid lg:grid-cols-5 lg:gap-4 text-lg font-medium text-gray-700">
+              <div className="lg:grid lg:grid-cols-5 lg:gap-4 text-lg font-medium">
                 {/* Desktop View */}
                 <div className="hidden lg:flex items-center justify-center p-2 rounded">
                   <span className="font-bold">{rank}</span>
@@ -122,7 +118,7 @@ const Users = ({ leaderboardData }) => {
                   </div>
                   <div className="flex items-center justify-around p-2">
                     {getMedal(rank)}
-                    <span className="text-sm text-gray-500">{driver.collegeName}</span>
+                    <span className="text-sm text-gray-200">{driver.collegeName}</span>
                   </div>
                 </div>
               </div>

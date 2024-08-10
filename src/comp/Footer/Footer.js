@@ -1,7 +1,7 @@
 // Footer.js
 import React from 'react';
 import './f.css';
-import AxisLogo from './axis25.png'; // Path to the image file
+import AxisLogo from './axis25(bg removed).png'; // Path to the image file
 import Yt from './youtube.svg'
 
 const Footer = () => {
