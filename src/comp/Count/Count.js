@@ -48,7 +48,7 @@ const CountUpAnimation = ({ title, target }) => {
   return (
     <div className="text-center mt-4 sm:mt-6" ref={countRef}>
       <h2 className="text-lg sm:text-2xl font-bold text-white mb-2 sm:mb-4">{title}</h2>
-      <div className="text-xl sm:text-3xl font-bold" style={{ color: '#4361EE' }}>
+      <div className="text-xl sm:text-3xl font-bold" style={{ color: '#6F85F3' }}>
         {count}+
       </div>
     </div>
@@ -58,8 +58,8 @@ const CountUpAnimation = ({ title, target }) => {
 const CountUpGroup = () => {
   return (
     <div className="flex flex-col sm:flex-row justify-center sm:justify-evenly mt-4 sm:mt-8">
-      <CountUpAnimation title="COLLEGE AMBASSADORS" target={100} />
-      <CountUpAnimation title="COLLEGES" target={52} />
+      <CountUpAnimation title="COLLEGE AMBASSADORS" target={250} />
+      <CountUpAnimation title="COLLEGES" target={75} />
       {/* <CountUpAnimation title="INTERNATIONAL COLLEGES" target={68} /> */}
     </div>
   );

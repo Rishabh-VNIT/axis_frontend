@@ -45,7 +45,7 @@ const Carousel = () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, Autoplay, EffectCoverflow]}
+      modules={[Pagination, Scrollbar, Autoplay, EffectCoverflow]}
       effect="coverflow"
       grabCursor="true"
       centeredSlides="true"
@@ -57,7 +57,7 @@ const Carousel = () => {
         modifier: 1,
         slideShadows: false,
       }}
-      navigation={true}
+      // navigation={true}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}

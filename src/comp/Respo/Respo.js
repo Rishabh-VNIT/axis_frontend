@@ -3,7 +3,7 @@ import neto from "./networking (1).png";
 import goodies from "./goodies.png";
 import mentor from "./mentoring.png";
 import pass from "./ticket.png";
-import certificate from "./certificate.png";
+import certificate from "./certificate_vecctor.svg";
 import mer from "./t-shirt-64.png"
 import { ResponsibilityCard } from "../Card/Card";
 
@@ -21,7 +21,7 @@ const whats = () => {
             className="text-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 hover:scale-105 hover:no-underline flex flex-col items-center justify-center"
             href="/"
           >
-            <img src={certificate} alt=""/>
+            <img src={certificate}  alt=""  className="w-32 h-auto"/>
 
             <h2 className="mt-4 text-xl font-bold text-white">Certificate</h2>
             

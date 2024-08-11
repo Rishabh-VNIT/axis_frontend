@@ -1,5 +1,5 @@
 import "./regi.css";
-import AxisLogo from "./Axis.png";
+import AxisLogo from "./axis25(bg removed).png";
 // import React from "react";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
