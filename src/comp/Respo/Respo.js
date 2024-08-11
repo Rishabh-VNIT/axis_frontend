@@ -1,8 +1,8 @@
 import React from "react";
-import neto from "./networking (1).png";
-import goodies from "./goodies.png";
+import neto from "./networking.svg";
+import goodies from "./prize.svg";
 import mentor from "./mentoring.png";
-import pass from "./ticket.png";
+import pass from "./access.svg";
 import certificate from "./certificate_vecctor.svg";
 import mer from "./t-shirt-64.png"
 import { ResponsibilityCard } from "../Card/Card";
@@ -34,7 +34,7 @@ const whats = () => {
             className="text-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 hover:scale-105 hover:no-underline flex flex-col items-center justify-center"
             href="/"
           >
-            <img src={goodies} alt="" />
+            <img src={goodies} alt="" className="w-32 h-auto"/>
 
             <h2 className="mt-4 text-xl font-bold text-white">
               Exciting Prizes
@@ -49,7 +49,7 @@ const whats = () => {
             className="text-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 hover:scale-105 hover:no-underline flex flex-col items-center justify-center"
             href="/"
           >
-            <img src={neto} alt="" />
+            <img src={neto} alt="" className="w-32 h-auto"/>
 
             <h2 className="mt-4 text-xl font-bold text-white">Networking</h2>
 
@@ -62,7 +62,7 @@ const whats = () => {
             className="text-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 hover:scale-105 hover:no-underline flex flex-col items-center justify-center"
             href="/"
           >
-            <img src={mentor} alt=""  />
+            <img src={mentor} alt=""  className="w-32 h-auto"/>
 
             <h2 className="mt-4 text-xl font-bold text-white">
               Guidance and Mentoring
@@ -77,7 +77,7 @@ const whats = () => {
             className="text-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 hover:scale-105 hover:no-underline flex flex-col items-center justify-center"
             href="/"
           >
-            <img src={pass} alt="" />
+            <img src={pass} alt="" className="w-32 h-auto"/>
 
             <h2 className="mt-4 text-xl font-bold text-white">
               Access to all the Workshop
@@ -92,7 +92,7 @@ const whats = () => {
             className="text-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 hover:scale-105 hover:no-underline flex flex-col items-center justify-center"
             href="/"
           >
-            <img src={mer} alt=""/>
+            <img src={mer} alt="" className="w-32 h-auto"/>
 
             <h2 className="mt-4 text-xl font-bold text-white">
               Merchandise
