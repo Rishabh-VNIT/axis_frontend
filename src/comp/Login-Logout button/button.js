@@ -32,7 +32,7 @@ const AuthButtons = () => {
       .then((google) => {
         google.accounts.id.initialize({
           client_id:
-            "980813792244-vv3fo17c297pehpsu9b582m5536uctvc.apps.googleusercontent.com", // Replace with your actual Client ID
+            "992310234662-9lcj5qdsjfglb9gml8v3u1f8an669rsr.apps.googleusercontent.com", // Replace with your actual Client ID
           callback: (response) => handleCredentialResponse(response, navigate), // Pass navigate here
         });
 
