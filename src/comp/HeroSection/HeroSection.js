@@ -35,7 +35,7 @@ const Hero = () => {
               Program
             </p>
             <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
-              {token ? <></> :
+              {/* {token ? <></> :
                 <NavLink
                   href="/signup"
                   className="flex items-center gap-x-2 text-white hover:text-gray-500 border border-white py-2 px-4 rounded-full"
@@ -53,7 +53,7 @@ const Hero = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </NavLink>}
+                </NavLink>} */}
               <button
                 onClick={handleLearnMoreClick}
                 className="flex items-center gap-x-2 text-white hover:text-gray-500 border border-white py-2 px-4 rounded-full"

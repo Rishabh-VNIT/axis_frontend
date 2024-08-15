@@ -1,10 +1,10 @@
 import React from "react";
-import neto from "./networking.svg";
+import neto from "./final_handshake.png";
 import goodies from "./prize.svg";
 import mentor from "./mentoring.png";
 import pass from "./access.svg";
 import certificate from "./certificate_vecctor.svg";
-import mer from "./t-shirt-64.png"
+import mer from "./final_merch.png"
 import { ResponsibilityCard } from "../Card/Card";
 
 const whats = () => {
