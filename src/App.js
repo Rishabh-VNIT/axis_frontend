@@ -32,10 +32,7 @@ const App = () => {
     <div className="relative overflow-hidden">
       {/* Background Video */}
       <div className="absolute top-0 left-0 w-full h-full -z-10 video-translate">
-        <video className="w-full h-full object-cover translate-x-80 md:translate-x-0" autoPlay loop muted>
-          <source src={Bgvid1} type='video/mp4' />
-        </video>
-        <video className="w-full h-full object-cover -translate-x-10 md:translate-x-0" autoPlay loop muted>
+        <video className="w-full h-full object-cover" autoPlay loop muted>
           <source src={Bgvid1} type='video/mp4' />
         </video>
       </div>
