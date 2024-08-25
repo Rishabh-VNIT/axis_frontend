@@ -19,7 +19,7 @@ const ContactCard = ({ name, phoneNumber, email }) => {
   );
 };
 
-const Contact = () => {
+const contact = () => {
   return (
     <section className="py-12">
       <div className="container mx-auto px-6">
@@ -46,4 +46,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default contact;

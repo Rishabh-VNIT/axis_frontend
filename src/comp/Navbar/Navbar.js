@@ -32,7 +32,7 @@ const DefaultNavbar = () => {
           <div className="hidden md:block">
             <ul className="flex space-x-10 text-white font-mullish font-medium">
               <li className="hover:text-blue-500">
-                <HashLink smooth to="#abam">About</HashLink>
+                <HashLink smooth to="#aboutaim">About</HashLink>
               </li>
               <li className="hover:text-blue-500">
                 <HashLink smooth to="#whats">What's in it?</HashLink>
