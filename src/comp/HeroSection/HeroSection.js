@@ -60,6 +60,12 @@ const Hero = () => {
               >
                 {showAbaim ? "Show Less" : "Learn More..."}
               </button>
+              <NavLink
+                href="/signup"
+                className="flex items-center gap-x-2 text-white hover:text-gray-500 border border-white py-2 px-4 rounded-full"
+              >
+                Register
+              </NavLink>
             </div>
 
             {showAbaim && <Ab />}
