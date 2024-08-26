@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import GradientWrapper from "../../comp/Gradient";
 import NavLink from "../Navlink/Navlink";
 import Ab from "../Ab-aim/Ab-aim";
+import { useNavigate } from "react-router-dom";
+import AuthButtons from "../Login-Logout button/button"; // Import the AuthButtons component
 
 const Hero = () => {
   const [showAbaim, setShowAbaim] = useState(false);
@@ -13,8 +15,9 @@ const Hero = () => {
   const token = localStorage.getItem('auth-token');
   console.log("token = " + token);
   if (token) {
-    return <></>
+    return <></>;
   }
+
   return (
     <div>
       <section>
@@ -25,7 +28,7 @@ const Hero = () => {
           <div className="space-y-5 max-w-4xl mx-auto text-center">
             <h1 className="text-4xl text-white font-extrabold mx-auto sm:text-6xl">
               Campus Ambassador<br></br>{" "}
-              <span className=" bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9867F0] to-[#ED4E50]">
                 Program
               </span>
             </h1>
@@ -35,40 +38,20 @@ const Hero = () => {
               Program
             </p>
             <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
-              {/* {token ? <></> :
-                <NavLink
-                  href="/signup"
-                  className="flex items-center gap-x-2 text-white hover:text-gray-500 border border-white py-2 px-4 rounded-full"
-                >
-                  Register
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </NavLink>} */}
               <button
                 onClick={handleLearnMoreClick}
                 className="flex items-center gap-x-2 text-white hover:text-gray-500 border border-white py-2 px-4 rounded-full"
               >
                 {showAbaim ? "Show Less" : "Learn More..."}
               </button>
-              {/* <NavLink
-                href="/signup"
-                className="flex items-center gap-x-2 text-white hover:text-gray-500 border border-white py-2 px-4 rounded-full"
-              >
-                Register
-              </NavLink> */}
             </div>
 
             {showAbaim && <Ab />}
+            <div className="mt-5 flex justify-center">
+              <div style={{ maxWidth: '200px' }}>
+              <AuthButtons />
+              </div>
+            </div>
           </div>
         </GradientWrapper>
       </section>

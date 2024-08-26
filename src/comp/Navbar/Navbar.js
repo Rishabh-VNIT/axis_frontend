@@ -55,7 +55,7 @@ const DefaultNavbar = () => {
             <ProfileIcon />
             <ul className="flex space-x-6">
               <li>
-                <AuthButtons />
+                {/* <AuthButtons /> */}
               </li>
             </ul>
           </div>

@@ -40,7 +40,6 @@ const AuthButtons = () => {
           document.getElementById("sign-in-button"),
           { theme: "outline", size: "large" } // Customize button style
         );
-
         google.accounts.id.prompt(); // Show the One Tap UI if appropriate
       })
       .catch((error) => {
