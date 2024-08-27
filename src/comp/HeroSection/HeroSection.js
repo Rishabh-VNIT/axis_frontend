@@ -48,7 +48,7 @@ const Hero = () => {
 
             {showAbaim && <Ab />}
             <div className="mt-5 flex justify-center">
-              <div style={{ maxWidth: '200px' }}>
+              <div className="w-full max-w-xs">
               <AuthButtons />
               </div>
             </div>
