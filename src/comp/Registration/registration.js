@@ -138,6 +138,7 @@ const MyRegi = () => {
     address: '',
     ideas: '',
     why: '',
+    source:'',
     refral: '',
   });
 
@@ -358,6 +359,17 @@ const MyRegi = () => {
                     required
                     className="w-full mt-2 px-3 py-2 text-black active:bg-white outline-none border focus:border-gray-900 shadow-sm rounded-lg"
                     rows="4"
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label className="font-medium">
+                    <b> From where did you got to know about this program?</b>
+                  </label>
+                  <input
+                    type="text" name="refral" value={formData.refral} onChange={handleChange}
+                    placeholder="Source"
+                    className="w-full mt-2 px-3 py-2 text-black active:bg-white outline-none border focus:border-gray-900 shadow-sm rounded-lg"
                   />
                 </div>
 
