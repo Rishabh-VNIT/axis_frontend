@@ -139,7 +139,7 @@ const MyRegi = () => {
     ideas: '',
     why: '',
     source:'',
-    refral: '',
+    referral: '',
   });
 
   const [errorMessage, setErrorMessage] = useState(''); // State for error message
@@ -313,7 +313,7 @@ const MyRegi = () => {
                     className="w-full mt-2 px-3 py-2 text-black active:bg-white outline-none border focus:border-gray-900 shadow-sm rounded-lg"
                   />
                 </div>
-{/* 
+{/*
                 <div className="form-group">
                   <label className="font-medium">
                     <b> Number of Posts </b>
@@ -367,7 +367,7 @@ const MyRegi = () => {
                     <b> From where did you got to know about this program?</b>
                   </label>
                   <input
-                    type="text" name="refral" value={formData.refral} onChange={handleChange}
+                    type="text" name="source" value={formData.source} onChange={handleChange}
                     placeholder="Source"
                     className="w-full mt-2 px-3 py-2 text-black active:bg-white outline-none border focus:border-gray-900 shadow-sm rounded-lg"
                   />
@@ -378,7 +378,7 @@ const MyRegi = () => {
                     <b> Referral Code </b>
                   </label>
                   <input
-                    type="text" name="refral" value={formData.refral} onChange={handleChange}
+                    type="text" name="referral" value={formData.referral} onChange={handleChange}
                     placeholder="Referral Code (if any)"
                     className="w-full mt-2 px-3 py-2 text-black active:bg-white outline-none border focus:border-gray-900 shadow-sm rounded-lg"
                   />
