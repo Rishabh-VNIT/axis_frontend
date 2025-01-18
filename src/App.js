@@ -6,6 +6,7 @@ import SignInForm from './comp/SignInForm/SignInForm';
 import LogOut from './comp/Logout/Logout';
 import Footer from './comp/Footer/Footer';
 import Leaderboard from './comp2/leaderboard/Leaderboard';
+import FortniteLeaderboard from './comp2/fortniteleaderboard/FortniteLeaderboard';
 import Profile from './comp2/profile/Profile';
 import Registration from './comp/Registration/registration';
 import Bgvid1 from './V1.mp4';
@@ -36,7 +37,7 @@ const App = () => {
           <source src={Bgvid1} type='video/mp4' />
         </video>
       </div>
-      
+
       <Router>
         <div className="relative">
           {isSimpleNavbar ? <DefaultNavbar /> : <SimplifiedNavbar />}
@@ -46,6 +47,7 @@ const App = () => {
             <Route path="/profile" element={<Profile />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
+            <Route path="/fornite-leaderboard" element={<FortniteLeaderboard />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/logout" element={<LogOut />} />
           </Routes>

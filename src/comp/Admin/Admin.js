@@ -35,7 +35,7 @@ const Admin = () => {
     // Filter users based on the search term
     useEffect(() => {
         const lowercasedTerm = searchTerm.toLowerCase();
-        setFilteredUsers(users.filter(user => 
+        setFilteredUsers(users.filter(user =>
             user.name.toLowerCase().includes(lowercasedTerm) ||
             user.email.toLowerCase().includes(lowercasedTerm) ||
             user.collegeName.toLowerCase().includes(lowercasedTerm)
@@ -140,6 +140,27 @@ const Admin = () => {
         }
     };
 
+    const handleResetFornite = () => {
+        const token = localStorage.getItem("auth-token");
+        if (token || 1) {
+            axios.post(`${BASE_URL}/admin/reset-fortnite-points`, { token: token })
+                .then(response => {
+                    if (response.status === 200) {
+                        setCoinsChanger(value => !value);
+                        setUsers(prevUsers =>
+                            prevUsers.map(user => ({ ...user, points: 0, coins: user.coins }))
+                        );
+                        setFilteredUsers(prevUsers =>
+                            prevUsers.map(user => ({ ...user, points: 0, coins: user.coins }))
+                        );
+                    }
+                })
+                .catch(error => {
+                    console.error('Error resetting all points:', error.response?.data?.message || error.message);
+                });
+        }
+    };
+
     return (
         <div className="p-8 bg-gray-100 min-h-screen">
             <div className="container mx-auto bg-white p-6 rounded-lg shadow-lg">
@@ -157,6 +178,14 @@ const Admin = () => {
                         className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring focus:border-red-300 transition duration-300 ease-in-out mb-4"
                     >
                         Reset All Points
+                    </button>
+                </div>
+                <div className='flex items-center justify-center'>
+                    <button
+                        onClick={handleResetFornite}
+                        className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring focus:border-red-300 transition duration-300 ease-in-out mb-4"
+                    >
+                        Reset Fornite Points
                     </button>
                 </div>
                 {filteredUsers.length > 0 ? (
