@@ -45,6 +45,8 @@ const DefaultNavbar = () => {
               </li>
               <li className="hover:text-blue-500">
                 <a href="/leaderboard">Leaderboard</a>
+              </li>e="hover:text-blue-500">
+                <a href="/fornite-leaderboard">Fornite Leaderboard</a>
               </li>
               <li className="hover:text-blue-500">
                 <HashLink smooth to="#contact">Contact us!</HashLink>
@@ -108,6 +110,9 @@ const DefaultNavbar = () => {
               </li>
               <li className="hover:text-blue-500">
                 <a href="/leaderboard">Leader-board</a>
+              </li>
+              <li className="hover:text-blue-500">
+                <a href="/fornite-leaderboard">Fornite Leaderboard</a>
               </li>
               <li className="hover:text-blue-500">
                 <HashLink smooth to="#contact">Contact us!</HashLink>
